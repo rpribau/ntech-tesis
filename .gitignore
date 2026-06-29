@@ -1,33 +1,17 @@
 # Virtual environments
 .venv/
-venv/
-env/
-ENV/
 
 # Python cache & build files
 __pycache__/
-*.pyc
 *.pyo
-*.pyd
-.pytest_cache/
 .mypy_cache/
-build/
-dist/
-*.egg-info/
-
-# Jupyter Notebooks checkpoints
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/
 
 # MLflow tracking and databases
 mlruns/
-mlflow.db
-mlflow.db-journal
-.mlflow/
+*.db
 
 # Generated outputs & plots
 output_plots/
-eda_output/
 
 # Operating System files
 .DS_Store
